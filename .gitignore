@@ -1,0 +1,46 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===== Virtual Environment =====
+venv/
+env/
+ENV/
+.venv/
+
+# ===== Environment Variables (JANGAN di-commit!) =====
+.env
+.env.local
+.env.*.local
+
+# ===== Data (file besar, jangan di-commit) =====
+data/
+*.csv
+*.zip
+
+# ===== Kaggle API credentials =====
+kaggle.json
+.kaggle/
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Jupyter (jika nanti pakai notebook) =====
+.ipynb_checkpoints/
+
+# ===== Logs =====
+*.log
