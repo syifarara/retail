@@ -45,7 +45,7 @@ Konsistensi Total: Memastikan TotalAmount sesuai dengan rumus Quantity × Price 
 
 ## Hasil Verifikasi Kualitas Data (Quality Check)
 Setelah data dimuat ke PostgreSQL, saya menjalankan query SQL untuk memastikan tidak ada data yang corrupt atau dirty.
-https://docs/query_results.png
+docs/query_results.png
 
 Ringkasan Hasil:
 Total baris: 100.000 baris berhasil dimuat.
